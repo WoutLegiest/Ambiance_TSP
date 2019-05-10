@@ -138,4 +138,86 @@ Cbc0010I After 26000 nodes, 3815 on tree, 514 best solution, best possible 487.6
 Cbc0010I After 27000 nodes, 3920 on tree, 514 best solution, best possible 488.82006 (101.85 seconds)
 Cbc0010I After 28000 nodes, 3990 on tree, 514 best solution, best possible 489.86667 (106.27 seconds)
 Cbc0010I After 29000 nodes, 4043 on tree, 514 best solution, best possible 490.91152 (110.65 seconds)
-Cbc0010I After 30000 nodes, 3884 on tree, 514 best solution, best possible 490.91152 (112.61 second
+Cbc0010I After 30000 nodes, 3884 on tree, 514 best solution, best possible 490.91152 (112.61 seconds)
+Cbc0010I After 31000 nodes, 3950 on tree, 514 best solution, best possible 491.99293 (117.18 seconds)
+Cbc0010I After 32000 nodes, 3989 on tree, 514 best solution, best possible 492.98338 (121.43 seconds)
+Cbc0038I Full problem 554 rows 575 columns, reduced to 505 rows 47 columns - 1 fixed gives 502, 42 - still too large
+Cbc0038I Full problem 554 rows 575 columns, reduced to 487 rows 38 columns - too large
+Cbc0010I After 33000 nodes, 4003 on tree, 514 best solution, best possible 494.076 (125.47 seconds)
+Cbc0010I After 34000 nodes, 3984 on tree, 514 best solution, best possible 494.076 (127.11 seconds)
+Cbc0010I After 35000 nodes, 3989 on tree, 514 best solution, best possible 495.24 (131.07 seconds)
+Cbc0010I After 36000 nodes, 3939 on tree, 514 best solution, best possible 496.32 (134.66 seconds)
+Cbc0010I After 37000 nodes, 3944 on tree, 514 best solution, best possible 497.2623 (138.34 seconds)
+Cbc0016I Integer solution of 512 found by strong branching after 1038907 iterations and 37047 nodes (138.42 seconds)
+Cbc0010I After 38000 nodes, 3898 on tree, 512 best solution, best possible 497.2623 (140.48 seconds)
+Cbc0010I After 39000 nodes, 3852 on tree, 512 best solution, best possible 498.14566 (143.98 seconds)
+Cbc0038I Full problem 554 rows 575 columns, reduced to 515 rows 41 columns - 3 fixed gives 431, 29 - still too large
+Cbc0010I After 40000 nodes, 3841 on tree, 512 best solution, best possible 499 (147.34 seconds)
+Cbc0010I After 41000 nodes, 3894 on tree, 512 best solution, best possible 499.63692 (150.49 seconds)
+Cbc0010I After 42000 nodes, 3730 on tree, 512 best solution, best possible 499.63692 (151.87 seconds)
+Cbc0010I After 43000 nodes, 3818 on tree, 512 best solution, best possible 500.245 (154.84 seconds)
+Cbc0010I After 44000 nodes, 3931 on tree, 512 best solution, best possible 500.8121 (157.54 seconds)
+Cbc0010I After 45000 nodes, 4096 on tree, 512 best solution, best possible 501.25048 (160.11 seconds)
+Cbc0010I After 46000 nodes, 4003 on tree, 512 best solution, best possible 501.25048 (161.30 seconds)
+Cbc0038I Full problem 554 rows 575 columns, reduced to 475 rows 33 columns - 1 fixed gives 471, 26 - still too large
+Cbc0038I Full problem 554 rows 575 columns, reduced to 179 rows 25 columns
+Cbc0010I After 47000 nodes, 4165 on tree, 512 best solution, best possible 501.66667 (164.00 seconds)
+Cbc0010I After 48000 nodes, 4332 on tree, 512 best solution, best possible 502.05263 (166.59 seconds)
+Cbc0010I After 49000 nodes, 4532 on tree, 512 best solution, best possible 502.38435 (169.09 seconds)
+Cbc0004I Integer solution of 508 found after 1278539 iterations and 49425 nodes (169.64 seconds)
+Cbc0010I After 50000 nodes, 3074 on tree, 508 best solution, best possible 502.38435 (170.69 seconds)
+Cbc0004I Integer solution of 507 found after 1289990 iterations and 50226 nodes (171.18 seconds)
+Cbc0010I After 51000 nodes, 2411 on tree, 507 best solution, best possible 502.48454 (172.31 seconds)
+Cbc0010I After 52000 nodes, 2303 on tree, 507 best solution, best possible 502.96 (174.60 seconds)
+Cbc0010I After 53000 nodes, 2205 on tree, 507 best solution, best possible 503.32877 (176.53 seconds)
+Cbc0010I After 54000 nodes, 1879 on tree, 507 best solution, best possible 503.32877 (177.62 seconds)
+Cbc0010I After 55000 nodes, 1636 on tree, 507 best solution, best possible 503.75 (179.63 seconds)
+Cbc0016I Integer solution of 505 found by strong branching after 1360128 iterations and 55228 nodes (180.03 seconds)
+Cbc0001I Search completed - best objective 505, took 1364171 iterations and 55581 nodes (180.40 seconds)
+Cbc0032I Strong branching done 58546 times (1068911 iterations), fathomed 5700 nodes and fixed 11187 variables
+Cbc0035I Maximum depth 49, 633116 variables fixed on reduced cost
+Cuts at root node changed objective from 388 to 448.485
+Probing was tried 66 times and created 38 cuts of which 0 were active after adding rounds of cuts (0.204 seconds)
+Gomory was tried 46502 times and created 3557 cuts of which 0 were active after adding rounds of cuts (9.489 seconds)
+Knapsack was tried 66 times and created 1 cuts of which 0 wusing python mip package version 1.0.29
+arc (0,4)
+arc (1,20)
+arc (2,7)
+arc (3,13)
+arc (4,11)
+arc (5,1)
+arc (6,18)
+arc (7,19)
+arc (8,10)
+arc (9,21)
+arc (10,22)
+arc (11,3)
+arc (12,23)
+arc (13,12)
+arc (14,0)
+arc (15,17)
+arc (16,8)
+arc (17,9)
+arc (18,14)
+arc (19,15)
+arc (20,6)
+arc (21,5)
+arc (22,2)
+arc (23,16)
+ere active after adding rounds of cuts (0.021 seconds)
+Clique was tried 66 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.003 seconds)
+MixedIntegerRounding2 was tried 46507 times and created 101639 cuts of which 0 were active after adding rounds of cuts (18.658 seconds)
+FlowCover was tried 66 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.038 seconds)
+TwoMirCuts was tried 46502 times and created 33821 cuts of which 0 were active after adding rounds of cuts (8.532 seconds)
+ZeroHalf was tried 1 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+
+Result - Optimal solution found
+
+Objective value:                505.00000000
+Enumerated nodes:               55581
+Total iterations:               1364171
+Time (CPU seconds):             180.48
+Time (Wallclock seconds):       181.00
+
+Total time (CPU seconds):       180.48   (Wallclock seconds):       181.00
+
