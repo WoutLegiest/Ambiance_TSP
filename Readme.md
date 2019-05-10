@@ -1,7 +1,7 @@
 
 # Ambiance - TSP Problem
 
-> Description taken from Jeroen Baerts's Github repository(*) that describes the problem and another solution.
+> Description taken from Jeroen Baerts's Github [repository](https://github.com/Forceflow/Ambiance_TSP) that describes the problem and another solution.
 
 In 1999, Belgian songsmith [Sam Gooris](https://nl.wikipedia.org/wiki/Sam_Gooris) rocked the charts with his dance hit [_Ambiance, Ambiance_](https://www.youtube.com/watch?v=EqdQyoAUQZ0).
 
