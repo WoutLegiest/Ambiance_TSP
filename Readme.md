@@ -17,10 +17,15 @@ We name this problem TSP, a _Travelling Sam Problem_.
 
 (*) There's some discussion regarding "Leut" or "Jeuk" and "Bere" and "Mere". I choose the latter in both cases as they sounded more alike to my hearing.
 
+# Solution strategy
+
+Using the format described in the TSPLIB 95, by Gerhard Reinelt, all the city's are listed in the files with the tsp extension. This optimization problem is solved using Mixed-Integer Linear Programming. The Python [MIP](https://pypi.org/project/mip/) package provided the tools to model and solve this TSP problem.     
 
 # Running
 
-Install the gurobi software from there [website](http://www.gurobi.com/#) inside a virtualenv, install also the mip packages.  
+Install the gurobi software from there [website](http://www.gurobi.com/#) inside a virtualenv, install also the mip packages. For this project the academic license of gurobi is used, as well as python 3.6.7. 
+
+Run the following commands to generate a solution:
 
     $ python solver.py belgium-ambianve-24.tsp > solve_alt_001.txt 
     $ python parser.py solve_001.txt belgium-ambianve-24.tsp > tour.txt 
