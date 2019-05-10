@@ -1,7 +1,9 @@
 
 # Ambiance - TSP Problem
 
-> Description taken from Jeroen Baerts's Github [repository](https://github.com/Forceflow/Ambiance_TSP) that describes the problem and another solution.
+> Based on the [Ambiance_TSP](https://github.com/Forceflow/Ambiance_TSP) repository from Jeroen Baert's Github. Problem description is taken from his original Ambiance_TSP repository.
+
+# Problem description
 
 In 1999, Belgian songsmith [Sam Gooris](https://nl.wikipedia.org/wiki/Sam_Gooris) rocked the charts with his dance hit [_Ambiance, Ambiance_](https://www.youtube.com/watch?v=EqdQyoAUQZ0).
 
@@ -27,5 +29,5 @@ Install the gurobi software from there [website](http://www.gurobi.com/#) inside
 
 Run the following commands to generate a solution:
 
-    $ python solver.py belgium-ambianve-24.tsp > solve_alt_001.txt 
-    $ python parser.py solve_001.txt belgium-ambianve-24.tsp > tour.txt 
+    $ python solver.py belgium-ambiance-24.tsp > output_files/solve_001.txt 
+    $ python parser.py output_files/solve_001.txt belgium-ambiance-24.tsp > output_files/tour_001.txt 
