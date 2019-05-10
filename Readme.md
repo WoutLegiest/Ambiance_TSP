@@ -31,3 +31,7 @@ Run the following commands to generate a solution:
 
     $ python solver.py belgium-ambiance-24.tsp > output_files/solve_001.txt 
     $ python parser.py output_files/solve_001.txt belgium-ambiance-24.tsp > output_files/tour_001.txt 
+
+# Solution
+
+In the output_files folder you can find the output from the solver (solve_00*.txt) and the more useful ordered list of the city's (tour_00*.txt).
